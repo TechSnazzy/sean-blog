@@ -6,8 +6,7 @@ categories:
 - Blog
 - Technology
 - Jekyll
-author:
-- Sean Morrison
+author: Sean Morrison
 ---
 
 ## Complete Guide to Getting Up and Running with Jekyll
