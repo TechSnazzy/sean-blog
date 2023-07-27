@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Complete Guide to Getting Up and Running with Jekyll"
+date:   2023-07-27 10:30:00 -0700
 categories:
 - Blog
 - Technology

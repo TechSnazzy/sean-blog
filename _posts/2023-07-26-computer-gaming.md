@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'My New Gaming Computer'
+date:   2023-07-26 09:30:00 -0700
 categories:
   - Blog
   - Gaming
