@@ -10,8 +10,6 @@ categories:
 author: Sean Morrison
 ---
 
-## Renaming Default Git Branch to Promote More Inclusive Language
-
 My website is [techsnazzy.com](https://www.techsnazzy.com). I created it back in 2018 when I first started my technology consultation services business. Back then the default name for the default branch in a git repo was "master". These days the default branch name is "main" in an effort to promote more inclusive language.
 
 Just recently I noticed my website still has the old-fashioned name "master" so I want to update it to "main" and here's how I did it.

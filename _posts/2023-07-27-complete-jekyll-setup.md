@@ -9,8 +9,6 @@ categories:
 author: Sean Morrison
 ---
 
-## Complete Guide to Getting Up and Running with Jekyll
-
 ## Intro
 
 Hello. Here’s a complete guide on how I setup my Jekyll site and pushed it to Github to run as a Github Pages site. I’ll describe this step by step from scratch. I’ll also cover how to create some posts to get you started.
