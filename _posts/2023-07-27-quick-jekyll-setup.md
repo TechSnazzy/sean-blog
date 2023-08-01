@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Complete Guide to Getting Up and Running with Jekyll"
+title: "Quick Guide to Getting Up and Running with Jekyll"
 date:   2023-07-27 10:30:00 -0700
 categories:
 - Blog
@@ -9,9 +9,7 @@ categories:
 author: Sean Morrison
 ---
 
-## Intro
-
-Hello. Here’s a complete guide on how I setup my Jekyll site and pushed it to Github to run as a Github Pages site. I’ll describe this step by step from scratch. I’ll also cover how to create some posts to get you started.
+Here’s a quick guide on how I setup my Jekyll site and pushed it to Github to run as a Github Pages site. I’ll describe this step by step from scratch. I’ll also cover how to create some posts to get you started.
 
 ## Step 1: Check the Jekyll documentation and install packages
 
