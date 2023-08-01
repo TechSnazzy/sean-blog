@@ -12,3 +12,5 @@ I finally decided to bite the bullet and get a gaming computer. I mainly just pl
 
 ![Gaming Computer 1]({{ site.url }}/{{ site.baseurl }}/assets/072623-computer-gaming-1.jpg)
 ![Gaming Computer 2]({{ site.url }}/{{ site.baseurl }}/assets/072623-computer-gaming-2.jpg)
+
+
