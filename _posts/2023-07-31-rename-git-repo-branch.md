@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Renaming Default Git Branch to Promote More Inclusive Language"
+title: "Renaming Default Git Branch"
 date:   2023-07-31 10:04:00 -0700
 categories:
 - Blog
