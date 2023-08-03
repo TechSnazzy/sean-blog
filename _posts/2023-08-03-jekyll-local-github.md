@@ -43,8 +43,8 @@ You can see how tedious that could get. But then ChatGPT gave me a great suggest
 3. This way when I push an update it's using the default `_config.yml` file.
 4. But when I run it locally the config dev file takes over.
 
-Now I don't have to keep commenting or uncommenting. Yay!
-
 ```bash
 bundle exec jekyll serve --config _config.yml,_config_dev.yml
 ```
+
+Now I don't have to keep commenting or uncommenting. Yay!
