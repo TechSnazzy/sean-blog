@@ -3,14 +3,13 @@ layout: post
 title: 'Learning JavaScript Callback Functions'
 date: 2018-07-28 10:00:00 -0700
 categories:
-  - Blog
-  - Javascript
+  - javascript
+  - callback function
+  - udacity
+  - front end web development
+  - first class functions
 author: Sean Morrison
 ---
-
-I had a bit of a break-through lately. Yesterday, I was going through the latter portion of Lesson 3 in Section 4 (the Exoplanet-Explorer…
-
-### Learning JavaScript Callback Functions
 
 I had a bit of a break-through lately. Yesterday, I was going through the latter portion of Lesson 3 in Section 4 (the Exoplanet-Explorer section in the Udacity Front-End Web Developer course). I realized that if I didn’t truly understand callback functions then I would struggle going forward. I thought I knew them but it turns out I really didn’t (in fact this is probably true of many things so I’m not taking anything for granted now — when in doubt, reread the definition of the term and try to gain a better understanding of it).
 
@@ -24,13 +23,15 @@ So lessons learned:
 
 1. First, make sure you understand the fundamentals. VERY IMPORTANT!
 2. Second, to learn each subject I think it’s best to:
-* go through the Udacity lesson once — don’t even complete the parts — just go through it quickly.
-* Then 2) find a better lesson on the Internet about the subject and learn it that way (YouTube, Udemy, etc).
-* Then 3) go back over the Udacity lesson (it will then make more sense) and complete the parts.
-* And 4) practice it by writing simple versions of whatever part you are learning.
-* And as you go, explain to yourself what you are doing. Speak it out loud as if you are explaining it to yourself.
+
+- go through the Udacity lesson once — don’t even complete the parts — just go through it quickly.
+- Then 2) find a better lesson on the Internet about the subject and learn it that way (YouTube, Udemy, etc).
+- Then 3) go back over the Udacity lesson (it will then make more sense) and complete the parts.
+- And 4) practice it by writing simple versions of whatever part you are learning.
+- And as you go, explain to yourself what you are doing. Speak it out loud as if you are explaining it to yourself.
 
 I’m not sure if these will work for others to help with the learning process but it’s definitely working for me.
 
 ---
-*Please note I originally posted this on my [Medium](https://medium.com/@seanmorrison) blog. I am currently in the process of moving all my writings and any documentation I've ever written to here.*
+
+_Please note I originally posted this on my [Medium](https://medium.com/@seanmorrison) blog. I am currently in the process of moving all my writings and any documentation I've ever written to here._
