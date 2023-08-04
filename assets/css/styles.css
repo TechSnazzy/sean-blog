@@ -1,8 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .site-header {
   height: 100px;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
 .logo {
-  width: 320px;
+  width: 240px;
   padding: 10px;
 }
