@@ -10,7 +10,7 @@ Now that my blog is setup and my planning is complete, I decided to get started 
 
 The first thing I did was build out a really small network with just two computers. I wanted to build out a **Windows Server 2016 domain controller** on an **Intel NUC 5i5RYB** and then bind a **MacBook Pro 13** laptop client running Catalina to it. These are the items I had to work with for now.
 
-![](/assets/images/1_OU2yct7MeaQeWfXLvVRR2w.jpeg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_OU2yct7MeaQeWfXLvVRR2w.jpeg)
 
 To do this, I first did some research and ended up referring to the these pages on the Internet. I didn’t exactly follow those pages but I did get some interesting things to work on from each page.
 
@@ -36,7 +36,7 @@ dsconfigad -preferred server.techsnazzy.local  -a seanmbp13 -domain techsnazzy.l
 
 When I was done, I had the green light of success. Joy! 🎉
 
-![](https://cdn-images-1.medium.com/max/800/1*WZMsVjfW0uweY0G_Xtgi0g.png)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_WZMsVjfW0uweY0G_Xtgi0g.png)
 
 So the lesson I learned here is to just run the command rather than deal with the GUI. I’ll have to dive in deeper to find out why the GUI doesn’t work. Also, before I had success with the terminal, I did some other things.
 

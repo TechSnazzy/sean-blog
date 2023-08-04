@@ -8,17 +8,17 @@ author: Sean Morrison
 
 A recent goal I set was to see if I could build out (or at least learn how to build out) a modern computer infrastructure for a small business. This will be a long-term, ongoing work in progress. I will do this from home using the resources I have. This would include on-prem servers, some cloud resources, mobile and other things. I have created a more comprehensive list below.
 
-![](/assets/images/1_cX0FFOZ_dKpnHfgRLnTWdQ.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_cX0FFOZ_dKpnHfgRLnTWdQ.jpg)
 
 In my day to day job, I am an IT HelpDesk at a medium-sized company. I contract full-time through my [TechSnazzy, LLC](https://www.techsnazzy.com) company. I created [TechSnazzy](https://www.techsnazzy.com) so that I could do this sort of IT contract work. I also use it as an umbrella to do other things such as Front-End Web Development (currently still in a learning mode though). For now, I will be focusing mostly on IT.
 
-![](/assets/images/1_8N13gRUK6uzC_R5rkKentw.png)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8N13gRUK6uzC_R5rkKentw.png)
 
 During the pandemic I have done most of my work from home with an occasional trip to the office. At my current company, most of my work is to provide remote support for Windows users. However, there are some Macs, many iOS devices, some Android and a bit of Linux to support as well.
 
 Over the last decade or so, I have noticed that many high-tech and software development companies seem to prefer Mac. Because of that, I have been wanting to learn more about how that works build up my skills in that area.
 
-![](/assets/images/1_dkz0QLgAPzbeRpysL9tR0w.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_dkz0QLgAPzbeRpysL9tR0w.jpg)
 
 First, I will build out a small infrastructure for [TechSnazzy](https://www.techsnazzy.com). I will create a group of Windows Server 2016 domain controllers that will handle Active Directory, DNS and DHCP. Then I will join Windows and Mac clients to that network.
 
@@ -32,7 +32,7 @@ As I’ve been thinking about this, I came up with some questions. For example,�
 
 There is only one way to answer these questions so it’s time to dive in.
 
-![](/assets/images/1_Wn-jvUStWnEL6i9tT8IjWg.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_Wn-jvUStWnEL6i9tT8IjWg.jpg)
 
 #### List of Items to Learn or Build
 

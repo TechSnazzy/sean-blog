@@ -12,11 +12,11 @@ I have a **MacBook Pro 16** with 32GB of RAM and a fast GPU and I9 processor, I 
 
 First, I went ahead and installed **VirtualBox** and then installed three Windows Server 2016 guest servers. It all went pretty well and I got it setup pretty fast.
 
-![](/assets/images/1_8UjKmjWbGybVg3CUrsQDRg.png)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8UjKmjWbGybVg3CUrsQDRg.png)
 
 Right after I built up my servers, I ran into an issue. I couldn’t get a network connection over the wireless on the host. In other words, my Mac host was on wireless and I couldn’t get the network interfaces on the guests to ping the host or gateway. To fix this, the host will need to be connected to a wired network.
 
-![](/assets/images/1_8gzH0HwGCR2nZFnVDgFwGg.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8gzH0HwGCR2nZFnVDgFwGg.jpg)
 
 **Note**: I’m not sure why I need to be on a wired network in VirtualBox rather than wireless in order for guests to ping things outside of the host or each other. But being on the wired network is the only way I can get it to work. I will definitely research and dive into that topic in another post someday.
 
@@ -28,7 +28,7 @@ First, I found this [TP-Link adapter on Amazon](https://www.amazon.com/gp/produc
 
 Next, in order to adapt from USB to USB-C, I used my [Anker USB hub](https://www.amazon.com/gp/product/B07YZ48HCT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 
-![](https://cdn-images-1.medium.com/max/800/1*gQwBGSD2dllRc7Yv9Ox2mg.jpeg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_gQwBGSD2dllRc7Yv9Ox2mg.jpg)
 
 **Side note**: To be clear, I am not advertising any products. I’m just listing the items I am using for reference.
 

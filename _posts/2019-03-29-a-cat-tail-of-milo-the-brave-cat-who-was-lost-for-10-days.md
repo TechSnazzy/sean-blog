@@ -8,13 +8,13 @@ author: Sean Morrison
 
 If you ever lost your pet then this story is for you. This is the triumphant story of our brave, black and white, tuxedo cat, Milo.
 
-![](/assets/images/1_qy4OT2YeXLueMvfb50fM-w.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_qy4OT2YeXLueMvfb50fM-w.jpg)
 
 It was Sunday, March 17th 2019. I’ve always considered St. Patrick’s Day a day for good luck. But there was no good luck happening on this day. We had been working pretty hard for a couple of weeks moving into our new home. That night we went out to get something to eat. We were celebrating the fact that the move was done, that it was St Patties Day and that it was the one year anniversary for my company, TechSnazzy. So we ate some good food at Grub Burger down the street.
 
 After Grub Burger, we came back home and began winding down for the night. When we got home, I opened up some of the windows. I pulled the blinds up in the home office room and just left a little bit of the screen showing to let some air in as it was a bit warm in the house. I figured that would be a good window since the screen had just been replaced with a new one. After that, we went to go watch TV. We were watching The Walking Dead, with about a minute left, when I heard a large crashing sound. I pressed pause on the remote, got up and went to look. My heart sank into my stomach when I walked into the room and saw the screen had been torn and someone (Milo) jumped out the window.
 
-![](/assets/images/1_B7r-Bt4Il2INLbP6t0yDCA.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_B7r-Bt4Il2INLbP6t0yDCA.jpg)
 
 I threw my shoes on and ran out the front door to the side where he jumped out. By this time it’s after 9pm and it was dark outside. I got to the side area where he jumped out just in time to see a creature run through the ivy and disappear into the darkness. My wife looked around while I ran back in to get a flash light. We searched and searched but he was gone. I had so many thoughts and emotions and regrets flowing through me. Why did I leave that window open? How did I let this happen?
 
@@ -22,7 +22,7 @@ It started getting late into the night but there was nothing more we could do. H
 
 Now my alarm goes off and I get ready and go to work. The whole morning we didn’t say much. Both of us were in shock and tired and processing what to do about this. I didn’t even want to go work. I wanted to go look for Milo. In fact, when I got to work I only lasted an hour before I told my manager I needed to get home and look for him. She was very understanding and told me to go do it.
 
-![](/assets/images/1_X04hWRbvoNSCW-ArOhCGhQ.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_X04hWRbvoNSCW-ArOhCGhQ.jpg)
 
 So I go back home. I didn’t have much of a plan. I just knew I needed to make signs and post them around. I needed to do something, anything. I needed to talk to people and get the word out. To be honest, I wasn’t very prepared for this. I never thought it would happen to me. But I got home and managed to print out some LOST flyers featuring Milo and put them around the street and in some neighbors mailboxes.
 
@@ -30,7 +30,7 @@ As the day went by I just kept thinking about what to do. I’d talk to a neighb
 
 Anyway, night two. Again, didn’t sleep much. Just processing everything still. My wife and I walked around the block a few times calling his name out. We also did a tremendous amount of Googling. It turns out, that if you have an indoor cat, then they likely are close. Maybe 1 to 5 houses away. Question is: Which 1 to 5 houses? Milo could be anywhere. Well, we are learning things.
 
-![](/assets/images/1_hTiIPWMBZ8CKZ_XSJAcvhw.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_hTiIPWMBZ8CKZ_XSJAcvhw.jpg)
 
 Next day I went to work. Most of the day was spent telling people about how Milo escaped and was lost. Another interesting thing emerged from this. I started to realize just how common this was. It turns out people lose their pets a lot! And this is why I am writing this. To share my story. I hope by the time you are done reading you will know that there is hope.
 
@@ -38,7 +38,7 @@ So Tuesday crawls to an end we call it a night. Next morning, I wake up and get 
 
 Well anyway, the hours and days continued to pass by. I discovered there is such a thing as a humane trap. It’s a Havahart trap. You can get it for about $60 on Amazon. They are very popular. So I got one and it was delivered that Thursday. So we are now on day 5 or so. Starting to get very worried because it’s cold outside and Milo is a short haired cat. And it’s been raining. Poor guy. Please be alive! Well, I have the trap, it’s baited with cat food and I’m going to put it in the back yard tonight.
 
-![](/assets/images/1_I0xwDPh6yTCJMaLXfEkNjw.jpg)So it’s around 11:30pm and I go to bed. Then at around 1:00am, my wife wakes me and says she heard the trap go off. So I go out there with the flashlight. Again, my heart sank into my stomach when I saw a possum in there. He was sneering at me and it stank like possum pee. Now I was totally mortified. I set the trap and put it out there but I never gave it any thought as to how I would release a wild animal from it. But I covered it with a towel and left it there for now. Poor possum. He was probably so scared. But I couldn’t get him out.
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_I0xwDPh6yTCJMaLXfEkNjw.jpg)So it’s around 11:30pm and I go to bed. Then at around 1:00am, my wife wakes me and says she heard the trap go off. So I go out there with the flashlight. Again, my heart sank into my stomach when I saw a possum in there. He was sneering at me and it stank like possum pee. Now I was totally mortified. I set the trap and put it out there but I never gave it any thought as to how I would release a wild animal from it. But I covered it with a towel and left it there for now. Poor possum. He was probably so scared. But I couldn’t get him out.
 
 Morning came. I woke up and I still had no plan. And meanwhile, this was a big day. See, before this all went down we had already made plans for our Internet to be connected at the house that day and for a giant couch to be delivered. So I basically had about 30 minutes to get this possum set free. I won’t go into the details but somehow to managed to get the door of the cage open and coaxed the possum out and he scurried off and climbed up a tree.
 
@@ -46,7 +46,7 @@ Whew! Glad that’s done. When I set the trap again, I will make sure to have a 
 
 Ok, hopefully I have a better plan because now it’s Sunday and I’m going to try this trap again. Different location this time. Now it will be in front of the house near where Milo first got out. Here we go again. I better have a good plan in place. So I’m about to heard off to bed when my wife comes out. “I heard the trap go off.” There was a part of me that knew what was ahead. But there was another part of me that was hoping I was wrong. Well, I got my flashlight and headed back out again.
 
-![](/assets/images/1_4A1fJuwiBCYULSJdgW39JA.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_4A1fJuwiBCYULSJdgW39JA.jpg)
 
 So I walk up slowly. It’s 11:30pm. Late at night and I should be going to bed by now. Anyway, I shined the light and see a furry creature in there. Furry creature slowly turns and looks at me. It’s a raccoon. Oh wow! And not only is it a raccoon, but it’s a big raccoon! Fills up the whole cage. How’d he even get in there? Um, turns out I didn’t have a plan for this. When I walked up close, he growled at me. His park sounded like a vicious dog. He was a mean, aggressive one. And he was determined to break out of that cage. I couldn’t even get near the cage.
 
@@ -54,23 +54,23 @@ I went back inside and tried to call animal control and the police. All of it wa
 
 By the way, I am not a person who traps animals. This has only been out of necessity. I love animals and between letting Milo escape and having trapped two wild animals, I felt a feeling of a dark, black cloud that took over my soul. This was a dark time in my life.
 
-![](/assets/images/1_KkgHn7XGDr5Xm20Xy7mglA.jpg)Anyway, back to the raccoon. I had to leave it there and I just went to bed. In the morning I woke up and had to deal with this. The animal control officer called me back and basically said they won’t come out and that I will need to do this. She gave me some advice about covering the cage with a blanket to distract the raccoon. But otherwise, I was on my own. And here we go… another fun Monday morning. Again, I have maybe 15 minutes to figure this out because I have to go to work. Long story short: I covered the cage with a blanket (that does actually work believe it or not— raccoon didn’t growl as much) and I managed to get the door open and he ran out. That might’ve been the scariest thing I’ve ever done in my life. And did I mention he was BIG!
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_KkgHn7XGDr5Xm20Xy7mglA.jpg)Anyway, back to the raccoon. I had to leave it there and I just went to bed. In the morning I woke up and had to deal with this. The animal control officer called me back and basically said they won’t come out and that I will need to do this. She gave me some advice about covering the cage with a blanket to distract the raccoon. But otherwise, I was on my own. And here we go… another fun Monday morning. Again, I have maybe 15 minutes to figure this out because I have to go to work. Long story short: I covered the cage with a blanket (that does actually work believe it or not— raccoon didn’t growl as much) and I managed to get the door open and he ran out. That might’ve been the scariest thing I’ve ever done in my life. And did I mention he was BIG!
 
 We later found out that this was a known, large raccoon in the neighborhood. Gee, lucky me. I get the boss level raccoon first time having to do this. Anyway, it will never happen again. He destroyed the cage. So now we are back at square zero. How many days has it been? Please be alive.
 
-![](/assets/images/1_z78EA14WOwqj--3kj6w-Yw.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_z78EA14WOwqj--3kj6w-Yw.jpg)
 
 It’s now Tuesday, March 27th. My wife kept saying to stay positive and believe that Milo will return. She really believed he would come back and never gave up on him. My sister said to be patient and my mom was being supportive and told a story of a cat she knew that found on her roof. So all these ideas were in play — however, I couldn’t help but think Milo was gone forever. There’s o way he could survive this. We’ve been through a lot lately with the possum and raccoon. Cage is destroyed and nothing has worked. I guess he’s gone. So that night, we go to bed and that’s that.
 
 My wife is a light sleeper. And being that she’s just about to start her third trimester, always having to get up to pee. So she got up to pee at around 2:45am and heard his meow. She opens the door and sees him. He’s there on the roof looking down. He’s scared and meowing and wide eyed and just wants to come home. She grabbed some treats and threw them up to him to keep him at bay. Meanwhile, she ran over and woke me up and I came running out there with her. I couldn’t believe my eyes. There’s Milo. He’s right there but I can’t reach him.
 
-![](/assets/images/1_a1bPqXBFX0z5OtE-Q9SXiA.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_a1bPqXBFX0z5OtE-Q9SXiA.jpg)
 
 I ran back in and got a chair. I reached up but couldn’t quite get there. Feet are slipping on the chair. Need shoes. Run back in and get shoes on. Try again. Milo is meowing. So scared. Everything is moving at light speed. I stick my hands up there. He comes over to sniff my hand. My wife hands me treats to give to him. Still can’t reach high enough to grab him. She’s saying his name nicely to keep him coming back. Milo, Milo. It’s ok buddy. It’s ok. Ran back inside and grabbed a small desk and lugged it outside. Meow, meow. Keep an eye on him. Come back buddy. Don’t go. Stepped up. I can reach him now but he’s keeping his distance. Keep trying. Meow, sniff finger. Pet his head. I have one chance to grab the scruff of his neck. If I fail he might run away. Have to time this just right. Things are feeling intense. Wife hands me more treats for Milo. Sniff finger. Pet head. Reach to test if I can grab. Yeah, I think I can do it. The time is now. Let’s go — Finally — grab scruff with one hand, grab upper arm with other. He tries to back away. Hold tight, don’t let go. Pull him towards me. I got him. Just a little closer. If he claws me, ignore the pain. Keep holding him. Thankfully he’s not clawing. Move my hands to hold his body tight. I’m pulling him down, stepping down to the ground, we go inside, wife shuts door and this nightmare is over. We got him. He came back and we got him and that’s that.
 
 From there he scurried around the house. Sniffing things, meowing. Confused. But somehow, actually mostly normal. He lost quite a bit of weight. I don’t think he ate much while he was gone. But he seems to have kept himself dry. My guess is that he may have slept under a house in the neighborhood. And I think he had to time his late night visits so that the giant raccoon or other wild animals wouldn’t get him. But now we will move forward and heal and return to our normal lives. He will get plenty of sleep and food and we will all put this behind us. Milo buddy is home.
 
-![](/assets/images/1_rj0c9td0QQyuq_cZGv1bPg.jpg)
+![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_rj0c9td0QQyuq_cZGv1bPg.jpg)
 
 Here is a list of tips I have, that we have learned through this ordeal, to work through this:
 
