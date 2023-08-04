@@ -18,7 +18,7 @@ I won’t be going into too much detail here because there are plenty of step by
 
 The first thing is to install the AD DS role and then promote **DC-1** to Domain Controller.
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_zwsx0h6N_8N1PFgpadHS2g.png)
+![1_zwsx0h6N_8N1PFgpadHS2g.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_zwsx0h6N_8N1PFgpadHS2g.png)
 
 And since this is the very first server, I will need to create a new forest.
 
@@ -28,16 +28,16 @@ This is also going to install a DNS server and will be a Global Catalog server.
 
 It will also create a NetBIOS name for old times sake. Oh goodie!
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_D28Vflutqb4LPvTfKWAJpg.png)
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_o8R-OKoe3nptC1y8zWYgwg.png)
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_HhTkKTtmCkKnXx55FHR6Gw.png)
+![1_D28Vflutqb4LPvTfKWAJpg.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_D28Vflutqb4LPvTfKWAJpg.png)
+![1_o8R-OKoe3nptC1y8zWYgwg.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_o8R-OKoe3nptC1y8zWYgwg.png)
+![1_HhTkKTtmCkKnXx55FHR6Gw.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_HhTkKTtmCkKnXx55FHR6Gw.png)
 
 Once I am done, I follow the next default prompts and complete the installation.
 
 And that’s it. I now have an Active Directory domain of **techsnazzy.local** on a Windows Server 2016 domain controller.
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_my94UJkFgoS4EvTG6e2opA.png)
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_H1BBEmnoBcg9jT1tQO_lrA.png)
+![1_my94UJkFgoS4EvTG6e2opA.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_my94UJkFgoS4EvTG6e2opA.png)
+![1_H1BBEmnoBcg9jT1tQO_lrA.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_H1BBEmnoBcg9jT1tQO_lrA.png)
 
 At this point, I can create a user account and join a client to this network.
 

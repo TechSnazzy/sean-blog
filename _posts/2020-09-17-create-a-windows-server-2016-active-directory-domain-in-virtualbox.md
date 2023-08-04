@@ -12,11 +12,11 @@ I have a **MacBook Pro 16** with 32GB of RAM and a fast GPU and I9 processor, I 
 
 First, I went ahead and installed **VirtualBox** and then installed three Windows Server 2016 guest servers. It all went pretty well and I got it setup pretty fast.
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8UjKmjWbGybVg3CUrsQDRg.png)
+![1_8UjKmjWbGybVg3CUrsQDRg.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8UjKmjWbGybVg3CUrsQDRg.png)
 
 Right after I built up my servers, I ran into an issue. I couldn’t get a network connection over the wireless on the host. In other words, my Mac host was on wireless and I couldn’t get the network interfaces on the guests to ping the host or gateway. To fix this, the host will need to be connected to a wired network.
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8gzH0HwGCR2nZFnVDgFwGg.jpg)
+![1_8gzH0HwGCR2nZFnVDgFwGg.jpg]({{ site.url }}/{{ site.baseurl }}/assets/images/1_8gzH0HwGCR2nZFnVDgFwGg.jpg)
 
 **Note**: I’m not sure why I need to be on a wired network in VirtualBox rather than wireless in order for guests to ping things outside of the host or each other. But being on the wired network is the only way I can get it to work. I will definitely research and dive into that topic in another post someday.
 
