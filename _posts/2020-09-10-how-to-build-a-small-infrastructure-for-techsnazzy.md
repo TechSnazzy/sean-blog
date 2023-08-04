@@ -2,10 +2,7 @@
 layout: post
 title: 'How to Build a Small Infrastructure for TechSnazzy'
 date: 2020-09-10 10:00:00 -0700
-categories:
-  - infrastructure
-  - windows
-  - active directory
+categories: [infrastructure, windows, active directory]
 author: Sean Morrison
 ---
 

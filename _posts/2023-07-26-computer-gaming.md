@@ -2,8 +2,7 @@
 layout: post
 title: 'My New Gaming Computer'
 date: 2023-07-26 09:30:00 -0700
-categories:
-  - Gaming
+categories: [blog, Gaming]
 author: Sean Morrison
 ---
 
@@ -11,5 +10,3 @@ I finally decided to bite the bullet and get a gaming computer. I mainly just pl
 
 ![Gaming Computer 1]({{ site.url }}/{{ site.baseurl }}/assets/images/072623-computer-gaming-1.jpg)
 ![Gaming Computer 2]({{ site.url }}/{{ site.baseurl }}/assets/images/072623-computer-gaming-2.jpg)
-
-

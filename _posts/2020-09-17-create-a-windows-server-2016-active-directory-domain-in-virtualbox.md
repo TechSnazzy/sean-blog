@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Create a Windows Server 2016 Active Directory Domain in VirtualBox"
+title: 'Create a Windows Server 2016 Active Directory Domain in VirtualBox'
 date: 2020-09-17 10:00:00 -0700
-categories: blog javascript
+categories: [blog, javascript]
 author: Sean Morrison
 ---
 
@@ -37,4 +37,5 @@ After all that adapting, I now have a disabled wireless network port and an enab
 In my next post, I will talk about creating a new domain with my small group of Windows servers and then connect some clients.
 
 ---
-*Please note I originally posted this on my [Medium](https://medium.com/@seanmorrison) blog. I am currently in the process of moving all my writings and any documentation I've ever written to here.*
+
+_Please note I originally posted this on my [Medium](https://medium.com/@seanmorrison) blog. I am currently in the process of moving all my writings and any documentation I've ever written to here._

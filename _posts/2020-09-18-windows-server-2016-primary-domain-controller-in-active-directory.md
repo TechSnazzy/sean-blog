@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Server 2016 Primary Domain Controller in Active Directory"
 date: 2020-09-18 10:00:00 -0700
-categories: blog javascript
+categories: [blog, javascript]
 author: Sean Morrison
 ---
 

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Running Jekyll Site Locally and on GitHub"
-date:   2023-08-03 10:00:00 -0700
-categories:
-- Blog
-- Technology
-- Jekyll
-- Git
+title: 'Running Jekyll Site Locally and on GitHub'
+date: 2023-08-03 10:00:00 -0700
+categories: [Blog, Technology, Jekyll, Git]
 author: Sean Morrison
 ---
 
@@ -14,23 +10,24 @@ I've been working on learning how to build a Jekyll site for awhile now and I've
 
 Until now, I've been using the code below. I'd comment out the Local code if I'm pushing it to Github and then comment out Github if I'm running it locally.
 
-I do this  if I push to Github...
+I do this if I push to Github...
+
 ```yaml
 #Local
 # baseurl: ""
 # url: ""
 
 # GitHub
-baseurl: "sean-blog"
-url: "https://techsnazzy.com"
+baseurl: 'sean-blog'
+url: 'https://techsnazzy.com'
 ```
 
 And I do this if I'm running it locally...
+
 ```yaml
 #Local
-baseurl: ""
-url: ""
-
+baseurl: ''
+url: ''
 # GitHub
 #baseurl: "sean-blog"
 #url: "https://techsnazzy.com"

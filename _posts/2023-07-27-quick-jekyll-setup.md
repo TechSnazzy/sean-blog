@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Quick Guide to Getting Up and Running with Jekyll"
-date:   2023-07-27 10:30:00 -0700
-categories:
-- Blog
-- Technology
-- Jekyll
+title: 'Quick Guide to Getting Up and Running with Jekyll'
+date: 2023-07-27 10:30:00 -0700
+categories: [Blog, Technology, Jekyll]
 author: Sean Morrison
 ---
 
@@ -50,6 +47,7 @@ At this point you have your site. Now let’s turn it into a git repo and `git p
 Once you verify that you can do that then please follow these steps to push your repo to Github.
 
 From your terminal on your computer `cd` to your project and do this...
+
 ```bash
 git init # initialize the repo
 git add . # add all folders and files to the staging area
@@ -58,6 +56,7 @@ git status
 ```
 
 Now go to Github and create a new repo that has the same name as your project. So for example, if your repo on your local computer is called, `test-blog` then create a new repo in Github called `test-blog`. Once you create the new repo it will ask you to enter these commands. So go back to your terminal and `cd` to your local repo and run these commands to push your repo to Github.
+
 ```bash
 git remote add origin https://github.com/TechSnazzy/test-blog.git
 git branch -M main
@@ -65,6 +64,7 @@ git push -u origin main
 ```
 
 Now go back to your Github page and refresh the browser and you'll see your files have been uploaded. So at this point you should have your local repo, it's pushed to your Github and everything is in the `main` branch. But for this to work in Github Pages, the branch needs to be called `gh-pages`. Here's how to take care of that.
+
 ```bash
 git checkout -b gh-pages
 git add .
@@ -77,29 +77,33 @@ Now head back to your Github repo and make sure the `gh-pages` branch is there. 
 
 ## Step 4: Edit the config file and add some posts
 
-At this point you have a working project with git versioning and Github Pages working. So you are all set with the functionality. You'll be able to easily create new posts and push them to your site. Now we need to configure the site and add some posts and you’ll be all set. 
+At this point you have a working project with git versioning and Github Pages working. So you are all set with the functionality. You'll be able to easily create new posts and push them to your site. Now we need to configure the site and add some posts and you’ll be all set.
 
 You’ll need to first update your config file. You can do that by opening the folder in your favorite text editor. Personally, I mostly use vscode. From there you can take a look at your `_config.yml` file. Here are the things you'll need to update.
 
 This will be the title you'll see in the header of your blog.
+
 ```yaml
 title: TechSnazzy Blog
 ```
 
 Here you can write anything you want. This section will show up in the footer in the lower right when using the Minima theme.
+
 ```yaml
 description: >- # this means to ignore newlines until "baseurl:"
   Write any description you want here
 ```
 
 This line is very important. So my site is [https://www.techsnazzy.com/sean-blog/](https://www.techsnazzy.com/sean-blog/). The `baseurl` defines the `sean-blog` portion of that.
+
 ```yaml
-baseurl: "test-blog" # the subpath of your site, e.g. /blog
+baseurl: 'test-blog' # the subpath of your site, e.g. /blog
 ```
 
 In fact the url will be your website url. By default mine would be [https://TechSnazzy.github.io](https://TechSnazzy.github.io) but what you can do is register a domain and point it to your Github Pages site. My domain was previously registered with Google Domains but recently I moved it to Namecheap. And I use CloudFlare as my DNS provider. So now my site is [https://www.techsnazzy.com](https://www.techsnazzy.com) instead of [https://TechSnazzy.github.io](https://TechSnazzy.github.io). Again, more on this in another future post.
+
 ```yaml
-url: "https://techsnazzy.com"
+url: 'https://techsnazzy.com'
 ```
 
 Please note that when you are testing your site on your local computer with the `bundle exec jekyll serve` command then you'll want to leave the `baseurl` and `url` attributes blank.
@@ -108,9 +112,8 @@ Here's an example of how I do it. Curretly the "Local" is uncommented which mean
 
 ```yaml
 # Local
-baseurl: ""
-url: ""
-
+baseurl: ''
+url: ''
 # GitHub
 # baseurl: "sean-blog"
 # url: "https://techsnazzy.com"
@@ -121,13 +124,13 @@ Then you’ll need some content. The content will be in the `_posts` directory i
 ```markdown
 ---
 layout: post
-title: "This post demonstrates post content styles"
-date:   2023-07-31 10:04:00 -0700
+title: 'This post demonstrates post content styles'
+date: 2023-07-31 10:04:00 -0700
 categories: junk
 author:
-- Bart Simpson
-- Nelson Mandela Muntz
-meta: "Springfield"
+  - Bart Simpson
+  - Nelson Mandela Muntz
+meta: 'Springfield'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.

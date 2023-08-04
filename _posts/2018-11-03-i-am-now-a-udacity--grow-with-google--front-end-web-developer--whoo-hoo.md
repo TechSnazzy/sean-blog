@@ -2,8 +2,7 @@
 layout: post
 title: 'I am now a Udacity, Grow With Google, Front-End Web Developer. Whoo Hoo!'
 date: 2018-11-03 10:00:00 -0700
-categories:
-  - web development
+categories: [web development, technology]
 author: Sean Morrison
 ---
 

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Renaming Default Git Branch"
-date:   2023-07-31 10:04:00 -0700
-categories:
-- Blog
-- Technology
-- Jekyll
-- Git
+title: 'Renaming Default Git Branch'
+date: 2023-07-31 10:04:00 -0700
+categories: [Blog, Technology, Jekyll, Git]
 author: Sean Morrison
 ---
 
@@ -19,6 +15,7 @@ First, I made sure to make a backup. You just never know if something could go w
 Once my backup is done, I can do head over to GitHub. From there I go to my repo and then Settings. Then under Default Branch, I can edit the name from "master" to "main". Once I do that, some commands will pop up.
 
 These are the commands...
+
 ```zsh
 git branch -m master main
 git fetch origin
@@ -26,4 +23,4 @@ git branch -u origin/main main
 git remote set-head origin -a
 ```
 
-Now head over to your terminal and cd over to your repo and paste those commands. Then do a `git pull` and `git status` to make sure you're all caught up and that's it. Default branch name has been changed. Awesome! 
+Now head over to your terminal and cd over to your repo and paste those commands. Then do a `git pull` and `git status` to make sure you're all caught up and that's it. Default branch name has been changed. Awesome!

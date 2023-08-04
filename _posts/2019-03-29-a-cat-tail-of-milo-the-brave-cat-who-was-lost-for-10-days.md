@@ -2,8 +2,7 @@
 layout: post
 title: 'A Cat Tail of Milo the Brave Cat Who Was Lost for 10 Days'
 date: 2019-03-29 10:00:00 -0700
-categories:
-  - cat
+categories: [cat, pet]
 author: Sean Morrison
 ---
 
