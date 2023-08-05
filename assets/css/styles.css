@@ -18,3 +18,7 @@
 .logo {
   width: 240px;
 }
+
+html {
+  overflow-y: scroll;
+}
