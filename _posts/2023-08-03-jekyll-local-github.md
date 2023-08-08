@@ -1,47 +1,40 @@
 ---
 layout: post
-title: 'Running Jekyll Site Locally and on GitHub'
+title: 'Managing Jekyll Configurations for Local and GitHub Deployment'
 date: 2023-08-03 10:00:00 -0700
 categories: [Blog, Technology, Jekyll, Git]
 author: Sean Morrison
 ---
 
-I've been working on learning how to build a Jekyll site for awhile now and I've learned quite a lot. In fact I'm starting to document what I've learned here. That said, one thing that has been baffling me is how to run Jekyll both locally and from Github after I've pushed an update.
+**Problem**: Switching between local and GitHub configurations was a tedious process involving manual commenting and uncommenting of the configuration parameters.
 
-Until now, I've been using the code below. I'd comment out the Local code if I'm pushing it to Github and then comment out Github if I'm running it locally.
+**Old Approach**:
 
-I do this if I push to Github...
+- Commenting out local configuration when pushing to GitHub.
+- Commenting out GitHub configuration when running locally.
 
-```yaml
-#Local
-# baseurl: ""
-# url: ""
+**New Solution**:
 
-# GitHub
-baseurl: 'sean-blog'
-url: 'https://techsnazzy.com'
-```
+1. **Keep the Default Configuration**: In your `_config.yml` file, leave the GitHub configuration active, and comment out the local configuration.
 
-And I do this if I'm running it locally...
+2. **Create a Development Configuration File**: Make another file named `_config_dev.yml` and put the local configuration in there, uncommented.
 
-```yaml
-#Local
-baseurl: ''
-url: ''
-# GitHub
-#baseurl: "sean-blog"
-#url: "https://techsnazzy.com"
-```
+3. **Run Locally with Both Configurations**: When you want to run your Jekyll site locally, use the following command:
 
-You can see how tedious that could get. But then ChatGPT gave me a great suggestion. Here's what I did:
+   ```bash
+   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+   ```
 
-1. Leave the `_config.yml` file as it is with the Local code commented out.
-2. Create another file called `_config_dev.yml` that has the Local code uncommented.
-3. This way when I push an update it's using the default `_config.yml` file.
-4. But when I run it locally the config dev file takes over.
+   This command tells Jekyll to load both configuration files, with values in `_config_dev.yml` taking precedence. It means you can keep your production settings in `_config.yml`, and your local development overrides in `_config_dev.yml`.
 
-```bash
-bundle exec jekyll serve --config _config.yml,_config_dev.yml
-```
+4. **Push Updates as Usual**: When you push an update, the default `_config.yml` file will be used, so your GitHub configuration is already set.
 
-Now I don't have to keep commenting or uncommenting. Yay!
+5. **Celebrate**: You no longer have to manually comment or uncomment lines in the configuration. It's all automated, making your workflow much more streamlined and efficient. Yay!
+
+**Benefits**:
+
+- **Convenience**: Easily switch between configurations without manual changes.
+- **Maintainability**: Separate files allow you to keep local and production configurations neatly organized.
+- **Scalability**: You can further extend this approach with different configuration files for various environments or use cases.
+
+This new approach enhances my development workflow and makes it more adaptable and less error-prone. It's a great example of using tools and best practices to optimize development processes.
