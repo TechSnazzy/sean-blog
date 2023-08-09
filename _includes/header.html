@@ -4,13 +4,15 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-      <div class="logo-container">
+    <!-- TechSnazzy Logo Graphic -->
+      <!-- <div class="logo-container">
         <a class="site-title" href="{{ "/" | relative_url }}">
       <img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo">
     </a>
-      </div>
+      </div> -->
 
-    <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
+      <!-- Plain Text Site Title -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
