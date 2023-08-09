@@ -10,7 +10,7 @@ Now that my blog is set up and I've mapped out my plans, I embarked on construct
 
 I began by building a minimal network with just two devices. The setup included a Windows Server 2016 domain controller on an Intel NUC 5i5RYB and a MacBook Pro 13 laptop client running macOS Catalina that would be joined to it. These are the tools I had at my disposal.
 
-![1_OU2yct7MeaQeWfXLvVRR2w.jpeg]({{ site.url }}/{{ site.baseurl }}/assets/images/1_OU2yct7MeaQeWfXLvVRR2w.jpeg)
+![1_OU2yct7MeaQeWfXLvVRR2w.jpg]({{ site.url }}/{{ site.baseurl }}/assets/images/1_OU2yct7MeaQeWfXLvVRR2w.jpg)
 
 To initiate this project, I engaged in some research, finding guidance on these online pages. While I didn't follow these references to the letter, they offered some valuable insights:
 
