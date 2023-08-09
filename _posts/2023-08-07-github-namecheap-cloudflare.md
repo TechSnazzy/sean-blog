@@ -6,8 +6,6 @@ categories: [Blog, Technology, Git, Website]
 author: Sean Morrison
 ---
 
-## **Hosting on GitHub**
-
 GitHub provides three primary types of web hosting: personal pages, organization pages, and project pages. While there are private pages available too, that's a topic for another day. In this post, we'll dive into how these pages work and how I manage my domains using Cloudflare.
 
 ### **1. GitHub Organization Page**
