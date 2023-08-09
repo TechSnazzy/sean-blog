@@ -2,44 +2,45 @@
 layout: post
 title: "Windows Server 2016 Primary Domain Controller in Active Directory"
 date: 2020-09-18 10:00:00 -0700
-categories: [blog, javascript]
+categories: [infrastructure, windows, macos, active directory]
 author: Sean Morrison
 ---
 
-If you’ve been reading along with my previous posts, you’ll know that I have created a small group of **virtual machine guests** on my **MacBook Pro 16** in order to create an **Active Directory domain**.
+If you've been following my previous posts, you're aware that I've set up a cluster of virtual machines on my MacBook Pro 16. The primary goal? Setting up an Active Directory domain.
 
-There are 3 servers running Windows Server 2016. They are member servers for now and are named **DC-1**, **DC-2** and **DC-3** respectively. I’m also keeping it simple with a **192.168.0.x** network.
+I currently have three servers operating with Windows Server 2016. For the time being, they're configured as member servers, labeled `DC-1`, `DC-2`, and `DC-3`. I've decided on a `192.168.0.x` network to maintain simplicity.
 
-For this topic, I will add the **AD DS** role to **DC-1**. It will have an IP address of **192.168.0.5**. The gateway will be **192.168.0.1**.
+In this piece, I'll walk through adding the AD DS role to `DC-1`, which will be assigned an IP address of `192.168.0.5`. Its gateway is set to `192.168.0.1`.
 
-**Note**: Each guest NIC is running in **bridged mode** while the host NIC is wired with a dynamic address on the LAN. Also, I have disabled the wireless NIC on the host in order to keep things simple.
+> **Note**: Each virtual machine's NIC operates in bridged mode. Meanwhile, the host NIC connects via a dynamic LAN address. For a seamless experience, I've turned off the wireless NIC on the host.
 
-I won’t be going into too much detail here because there are plenty of step by step guides out there already. This is more of just an overview of what I am doing to get setup.
+While I won't dive deep into the intricate steps (as numerous detailed guides are available), consider this an overview of my setup journey.
 
-The first thing is to install the AD DS role and then promote **DC-1** to Domain Controller.
+Our first task? Install the AD DS role, then elevate `DC-1` to Domain Controller status.
 
-![1_zwsx0h6N_8N1PFgpadHS2g.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_zwsx0h6N_8N1PFgpadHS2g.png)
+![Image 1](/assets/images/1_zwsx0h6N_8N1PFgpadHS2g.png)
 
-And since this is the very first server, I will need to create a new forest.
+Given that this is our pioneer server, the creation of a new forest is mandatory.
 
-I will also need to choose a functional level. If I had an old 2008 server on this network then I would create it with a 2008 functional level. But since it’s starting out with 2016, then I will just take the default choice.
+The functional level selection is based on the oldest server version. For instance, if a 2008 server existed on this network, I'd opt for a 2008 functional level. But with a 2016 foundation, the default is optimal.
 
-This is also going to install a DNS server and will be a Global Catalog server.
+Additionally, this setup:
+- Installs a DNS server,
+- Functions as a Global Catalog server, and
+- Generates a NetBIOS name. Ah, nostalgia!
 
-It will also create a NetBIOS name for old times sake. Oh goodie!
+![Image 2](/assets/images/1_D28Vflutqb4LPvTfKWAJpg.png)
+![Image 3](/assets/images/1_o8R-OKoe3nptC1y8zWYgwg.png)
+![Image 4](/assets/images/1_HhTkKTtmCkKnXx55FHR6Gw.png)
 
-![1_D28Vflutqb4LPvTfKWAJpg.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_D28Vflutqb4LPvTfKWAJpg.png)
-![1_o8R-OKoe3nptC1y8zWYgwg.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_o8R-OKoe3nptC1y8zWYgwg.png)
-![1_HhTkKTtmCkKnXx55FHR6Gw.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_HhTkKTtmCkKnXx55FHR6Gw.png)
+Following through with the subsequent prompts completes the installation.
 
-Once I am done, I follow the next default prompts and complete the installation.
+Voila! Presenting an Active Directory domain named `techsnazzy.local` on a Windows Server 2016 domain controller.
 
-And that’s it. I now have an Active Directory domain of **techsnazzy.local** on a Windows Server 2016 domain controller.
+![Image 5](/assets/images/1_my94UJkFgoS4EvTG6e2opA.png)
+![Image 6](/assets/images/1_H1BBEmnoBcg9jT1tQO_lrA.png)
 
-![1_my94UJkFgoS4EvTG6e2opA.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_my94UJkFgoS4EvTG6e2opA.png)
-![1_H1BBEmnoBcg9jT1tQO_lrA.png]({{ site.url }}/{{ site.baseurl }}/assets/images/1_H1BBEmnoBcg9jT1tQO_lrA.png)
-
-At this point, I can create a user account and join a client to this network.
+With everything in place, I'm now poised to create user accounts and integrate clients into this network.
 
 ---
 *Please note I originally posted this on my [Medium](https://medium.com/@seanmorrison) blog. I am currently in the process of moving all my writings and any documentation I've ever written to here.*
