@@ -6,35 +6,50 @@ categories: [Blog, Technology, Jekyll, Git]
 author: Sean Morrison
 ---
 
-**Problem**: Switching between local and GitHub configurations was a tedious process involving manual commenting and uncommenting of the configuration parameters.
+I've been diving into the world of Jekyll, a simple and blog-aware static site generator, for some time now, and I've gathered a wealth of knowledge that I'm excited to share. One aspect that has been particularly challenging for me was figuring out how to run Jekyll both locally and on GitHub after pushing an update. Let me share with you the journey of what I've discovered and a smart solution that makes the process far less cumbersome.
 
-**Old Approach**:
+### Traditional Way: Manual Commenting and Uncommenting
 
-- Commenting out local configuration when pushing to GitHub.
-- Commenting out GitHub configuration when running locally.
+Initially, I found myself in a repetitive cycle of commenting and uncommenting lines of code to switch between local and GitHub configurations. Here's what it looked like:
 
-**New Solution**:
+**When pushing to GitHub:**
 
-1. **Keep the Default Configuration**: In your `_config.yml` file, leave the GitHub configuration active, and comment out the local configuration.
+```yaml
+#Local
+# baseurl: ""
+# url: ""
 
-2. **Create a Development Configuration File**: Make another file named `_config_dev.yml` and put the local configuration in there, uncommented.
+# GitHub
+baseurl: 'sean-blog'
+url: 'https://techsnazzy.com'
+```
 
-3. **Run Locally with Both Configurations**: When you want to run your Jekyll site locally, use the following command:
+**When running it locally:**
 
-   ```bash
-   bundle exec jekyll serve --config _config.yml,_config_dev.yml
-   ```
+```yaml
+#Local
+baseurl: ''
+url: ''
+# GitHub
+#baseurl: "sean-blog"
+#url: "[https://techsnazzy.com](https://techsnazzy.com)"
+```
 
-   This command tells Jekyll to load both configuration files, with values in `_config_dev.yml` taking precedence. It means you can keep your production settings in `_config.yml`, and your local development overrides in `_config_dev.yml`.
+While this method works, you can probably relate to how tedious it quickly becomes.
 
-4. **Push Updates as Usual**: When you push an update, the default `_config.yml` file will be used, so your GitHub configuration is already set.
+### A Better Approach: Separate Configuration Files
 
-5. **Celebrate**: You no longer have to manually comment or uncomment lines in the configuration. It's all automated, making your workflow much more streamlined and efficient. Yay!
+I was lucky enough to stumble upon a great solution, thanks to ChatGPT. Here's what it entails:
 
-**Benefits**:
+1. **Keep the `_config.yml` file as is with the local code commented out.** This will be your default configuration for GitHub.
+2. **Create another file named `_config_dev.yml` with the local code uncommented.** This will be your specific configuration for local development.
+3. **When pushing an update, GitHub will continue to use the default `_config.yml` file.** No changes are needed here.
+4. **When running locally, use a specific command that includes both config files.** This lets your local development environment take over the GitHub settings, like so:
 
-- **Convenience**: Easily switch between configurations without manual changes.
-- **Maintainability**: Separate files allow you to keep local and production configurations neatly organized.
-- **Scalability**: You can further extend this approach with different configuration files for various environments or use cases.
+```bash
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+```
 
-This new approach enhances my development workflow and makes it more adaptable and less error-prone. It's a great example of using tools and best practices to optimize development processes.
+By adopting this approach, you no longer have to get caught up in the endless loop of commenting and uncommenting lines of code. Hooray for efficiency and simplicity!
+
+Feel free to share your experiences or ask any questions. Happy Jekyll-ing! 🚀
