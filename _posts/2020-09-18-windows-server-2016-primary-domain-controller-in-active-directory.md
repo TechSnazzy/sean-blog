@@ -18,7 +18,7 @@ While I won't dive deep into the intricate steps (as numerous detailed guides ar
 
 Our first task? Install the AD DS role, then elevate `DC-1` to Domain Controller status.
 
-![Image 1](/assets/images/1_zwsx0h6N_8N1PFgpadHS2g.png)
+![Image 1]({{ site.url }}/{{ site.baseurl }}/assets/images/1_zwsx0h6N_8N1PFgpadHS2g.png)
 
 Given that this is our pioneer server, the creation of a new forest is mandatory.
 
@@ -29,16 +29,18 @@ Additionally, this setup:
 - Functions as a Global Catalog server, and
 - Generates a NetBIOS name. Ah, nostalgia!
 
-![Image 2](/assets/images/1_D28Vflutqb4LPvTfKWAJpg.png)
-![Image 3](/assets/images/1_o8R-OKoe3nptC1y8zWYgwg.png)
-![Image 4](/assets/images/1_HhTkKTtmCkKnXx55FHR6Gw.png)
+![Image 2]({{ site.url }}/{{ site.baseurl }}/assets/images/1_D28Vflutqb4LPvTfKWAJpg.png)
+![Image 3]({{ site.url }}/{{ site.baseurl }}/assets/images/1_o8R-OKoe3nptC1y8zWYgwg.png)
+![Image 4]({{ site.url }}/{{ site.baseurl }}/assets/images/1_HhTkKTtmCkKnXx55FHR6Gw.png)
 
 Following through with the subsequent prompts completes the installation.
 
 Voila! Presenting an Active Directory domain named `techsnazzy.local` on a Windows Server 2016 domain controller.
 
-![Image 5](/assets/images/1_my94UJkFgoS4EvTG6e2opA.png)
-![Image 6](/assets/images/1_H1BBEmnoBcg9jT1tQO_lrA.png)
+![Image 5]({{ site.url }}/{{ site.baseurl }}/assets/images/1_my94UJkFgoS4EvTG6e2opA.png)
+![Image 6]({{ site.url }}/{{ site.baseurl }}/assets/images/1_H1BBEmnoBcg9jT1tQO_lrA.png)
+
+![1_OU2yct7MeaQeWfXLvVRR2w.jpg]({{ site.url }}/{{ site.baseurl }}/assets/images/1_OU2yct7MeaQeWfXLvVRR2w.jpg)
 
 With everything in place, I'm now poised to create user accounts and integrate clients into this network.
 
