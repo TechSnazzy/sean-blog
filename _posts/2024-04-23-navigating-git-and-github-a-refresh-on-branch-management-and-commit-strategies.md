@@ -13,7 +13,6 @@ categories:
 author: Sean Morrison
 ---
 
-## Overview
 Recently, I revisited some fundamental Git operations while updating my GitHub Pages repository. This post serves as a refresher on some essential commands and procedures that are crucial for maintaining a streamlined development process.
 
 ## Fetching and Branch Confirmation
