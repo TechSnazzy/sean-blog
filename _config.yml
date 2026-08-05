@@ -1,7 +1,7 @@
 title: Sean's Blog
 
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Sean and TechSnazzy is my technology consultation services business. I specialize in Windows, macOS, Linux, networking, cloud, mobile, security and more. This is my blog to share my experiences. Enjoy!
+  I'm Sean, and TechSnazzy is my personal tech persona. I specialize in Windows, macOS, Linux, networking, cloud, mobile, security and more. This is my blog to share my experiences. Enjoy!
 
 
 #Local
@@ -12,7 +12,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "sean-blog"
 url: "https://blog.techsnazzy.com"
 
-twitter_username: seanmorrison
 github_username:  techsnazzy
 linkedin_username: theseanmorrison
 
