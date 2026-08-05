@@ -176,23 +176,37 @@ hr {
   border: none;
 }
 
-// Rouge's per-token syntax colors (comments, strings, keywords, etc.)
-// are tuned for a light background; keep them legible on dark instead.
-.post-content .highlight .c, .post-content .highlight .c1, .post-content .highlight .cm {
-  color: #7d8ba1 !important; // comments
-}
-.post-content .highlight .s, .post-content .highlight .s1, .post-content .highlight .s2 {
-  color: #ffb066 !important; // strings
-}
-.post-content .highlight .k, .post-content .highlight .kd, .post-content .highlight .kn {
-  color: var(--cyan) !important; // keywords
-}
-.post-content .highlight .n, .post-content .highlight .nb, .post-content .highlight .nv {
-  color: #d6f3ff !important; // names/variables
-}
-.post-content .highlight .err {
-  background: transparent !important;
-  color: #ff8a8a !important;
+// Rouge's per-token syntax colors are tuned for a light background.
+// Give every token type its own distinct hue on dark, terminal-style,
+// instead of previously collapsing several token types into one color.
+.post-content .highlight {
+  // comments
+  .c, .c1, .cm, .cp, .cs { color: #6a7891 !important; font-style: italic; }
+  // strings
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: #f1cb7a !important; }
+  // numbers
+  .m, .mf, .mh, .mi, .mo, .il { color: #c9a4ff !important; }
+  // keywords / operators-as-words
+  .k, .kc, .kd, .kn, .kp, .kr, .kt, .ow { color: #ff7ac6 !important; }
+  // punctuation / operators
+  .o, .p { color: #d6f3ff !important; }
+  // builtins (commands like sudo, apt, cd, echo)
+  .nb { color: #6fe3ff !important; }
+  // function/method names
+  .nf { color: #7ee787 !important; }
+  // classes, tags, attributes
+  .nc, .nt, .na { color: #7ee787 !important; }
+  // variables, constants
+  .nv, .no, .vc, .vg, .vi { color: #ffb066 !important; }
+  // generic names + plain unhighlighted text
+  .n { color: #d6f3ff !important; }
+  // shell prompt ($) / generic output
+  .gp { color: #6a7891 !important; font-weight: 700; }
+  .go { color: rgba(255, 255, 255, 0.55) !important; }
+  .gd { color: #ff8a8a !important; } // deleted
+  .gi { color: #7ee787 !important; } // inserted
+  // errors
+  .err { background: transparent !important; color: #ff8a8a !important; }
 }
 
 .post-content img {
