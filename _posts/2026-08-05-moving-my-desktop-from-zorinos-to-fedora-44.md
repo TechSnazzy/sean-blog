@@ -10,7 +10,7 @@ I spent a weekend moving my main desktop off ZorinOS and onto Fedora 44 Workstat
 
 ## The machine
 
-Nothing exotic here:
+Nothing fancy, gaming-style computer:
 
 - Fedora 44 Workstation (kernel `7.1.5-201.fc44.x86_64`)
 - NVIDIA GeForce RTX 3060, running the proprietary driver, not nouveau
