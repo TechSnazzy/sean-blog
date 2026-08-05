@@ -1,5 +1,20 @@
 ---
 ---
 
+@charset "utf-8";
+
+// TechSnazzy brand palette. These must be set BEFORE @import 'minima' below,
+// since Minima defines its own variables with !default and locks them in
+// the moment that import runs. Setting them afterward (e.g. in
+// custom-styles.scss) has no effect on Minima's own selectors.
+$brand-color:      #00a8cc;
+$text-color:       #1a1a2a;
+$background-color: #f8f9fc;
+$grey-color:       #6c7a8d;
+$grey-color-light: #e8ecf0;
+$grey-color-dark:  #16213e;
+$base-font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+$base-line-height: 1.6;
+
 @import 'minima';
 @import 'minima/custom-styles';

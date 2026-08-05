@@ -2,3 +2,223 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+// =============================================
+// TechSnazzy brand theme
+// (color variables mirrored from the main site's styles.css)
+// =============================================
+:root {
+  --navy: #0d1b2a;
+  --navy-mid: #16213e;
+  --cyan: #00d4ff;
+  --cyan-dim: #00a8cc;
+  --card-border: #e8ecf0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// ---------------------------------------------
+// Links & headings
+// ---------------------------------------------
+a {
+  color: var(--cyan-dim);
+}
+
+a:visited {
+  color: var(--cyan-dim);
+}
+
+a:hover {
+  color: var(--cyan);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+// ---------------------------------------------
+// Header / nav
+// ---------------------------------------------
+.site-header {
+  background: var(--navy);
+  border-top: none;
+  border-bottom: none;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.site-title {
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-title img.site-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+.site-nav {
+  line-height: 32px;
+}
+
+.site-nav .page-link {
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-weight: 500;
+  margin-left: 22px;
+  transition: color 0.2s;
+}
+
+.site-nav .page-link:hover {
+  color: var(--cyan) !important;
+  text-decoration: none;
+}
+
+.site-nav .nav-trigger + label .menu-icon > svg path {
+  fill: #fff;
+}
+
+.site-nav input ~ label {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+
+.site-nav .trigger {
+  background: var(--navy-mid);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav .page-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    display: block;
+    margin-left: 0;
+  }
+}
+
+// ---------------------------------------------
+// Post list (home page)
+// ---------------------------------------------
+.post-list {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 1.5rem;
+}
+
+.post-list > li {
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1.7rem 1.9rem;
+  margin-bottom: 1.3rem;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.post-list > li:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.post-list .post-meta {
+  color: var(--cyan-dim);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.post-list h3 {
+  margin: 0.4rem 0 0.5rem;
+}
+
+.post-list .post-link {
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.post-list .post-link:hover {
+  color: var(--cyan-dim);
+}
+
+// ---------------------------------------------
+// Post page
+// ---------------------------------------------
+.post-header {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.post-title {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.post-content {
+  line-height: 1.75;
+}
+
+.post-content h2, .post-content h3 {
+  margin-top: 2rem;
+}
+
+.post-content pre,
+.post-content code {
+  background: rgba(0, 212, 255, 0.08);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.post-content blockquote {
+  border-left: 4px solid var(--cyan-dim);
+  color: var(--navy-mid);
+}
+
+// ---------------------------------------------
+// Footer
+// ---------------------------------------------
+.site-footer {
+  background: var(--navy);
+  border-top: none;
+  padding: 2.4rem 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-footer .footer-heading {
+  color: #fff;
+}
+
+.site-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.site-footer a:hover {
+  color: var(--cyan);
+}
+
+.site-footer .p-name {
+  color: #fff;
+  font-weight: 600;
+}
+
+.site-footer svg {
+  fill: rgba(255, 255, 255, 0.6) !important;
+}
