@@ -154,12 +154,45 @@ hr {
   margin-top: 2rem;
 }
 
+// Rouge (Jekyll's syntax highlighter) wraps code in its own
+// .highlight / .highlighter-rouge / figure.highlight containers with a
+// hardcoded light theme that beats plain ".post-content pre" on specificity.
+// Force it dark explicitly rather than fighting that cascade.
 .post-content pre,
-.post-content code {
-  background: rgba(0, 212, 255, 0.1);
-  color: #d6f3ff;
+.post-content code,
+.post-content .highlight,
+.post-content .highlighter-rouge,
+.post-content figure.highlight {
+  background: #0f1c30 !important;
+  color: #d6f3ff !important;
   border-radius: 6px;
   border: 1px solid rgba(0, 212, 255, 0.18);
+}
+
+.post-content .highlight pre,
+.post-content .highlighter-rouge pre,
+.post-content .highlight code {
+  background: transparent !important;
+  border: none;
+}
+
+// Rouge's per-token syntax colors (comments, strings, keywords, etc.)
+// are tuned for a light background; keep them legible on dark instead.
+.post-content .highlight .c, .post-content .highlight .c1, .post-content .highlight .cm {
+  color: #7d8ba1 !important; // comments
+}
+.post-content .highlight .s, .post-content .highlight .s1, .post-content .highlight .s2 {
+  color: #ffb066 !important; // strings
+}
+.post-content .highlight .k, .post-content .highlight .kd, .post-content .highlight .kn {
+  color: var(--cyan) !important; // keywords
+}
+.post-content .highlight .n, .post-content .highlight .nb, .post-content .highlight .nv {
+  color: #d6f3ff !important; // names/variables
+}
+.post-content .highlight .err {
+  background: transparent !important;
+  color: #ff8a8a !important;
 }
 
 .post-content img {
