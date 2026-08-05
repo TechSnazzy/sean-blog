@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-08-05-setting-up-fleetdm-on-proxmox.md",
+                "file": "2026-08-05-moving-my-desktop-from-zorinos-to-fedora-44.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-05-setting-up-fleetdm-on-proxmox"
+              "title": "2026-08-05-moving-my-desktop-from-zorinos-to-fedora-44"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3286ed7471cf04c",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-08-05-setting-up-fleetdm-on-proxmox.md",
+                "file": "2026-08-05-moving-my-desktop-from-zorinos-to-fedora-44.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-08-05-setting-up-fleetdm-on-proxmox.md",
+                "file": "2026-08-05-moving-my-desktop-from-zorinos-to-fedora-44.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-08-05-setting-up-fleetdm-on-proxmox.md",
+                "file": "2026-08-05-moving-my-desktop-from-zorinos-to-fedora-44.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,9 +190,10 @@
   },
   "active": "90611925236fb4b7",
   "lastOpenFiles": [
+    "2026-08-05-setting-up-fleetdm-on-proxmox.md",
+    "2026-08-05-moving-my-desktop-from-zorinos-to-fedora-44.md",
     "2024-06-04-ubuntu-setup-guide-updated.md",
     "2026-08-05-setting-up-fleetdm-on-proxmox-part-1.md",
-    "2026-08-05-setting-up-fleetdm-on-proxmox.md",
     "2026-08-05-overhauling-my-home-setup-fedora-proxmox-fleetdm-part-1.md",
     "{{.md"
   ]
