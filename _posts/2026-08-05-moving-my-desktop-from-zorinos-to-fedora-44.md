@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Moving My Desktop from ZorinOS to Fedora 44'
-date: 2026-08-05 14:00:00 -0700
+date: 2026-08-05 10:30:00 -0700
 categories: [Blog, Technology, Linux, Fedora]
 author: Sean Morrison
 ---
