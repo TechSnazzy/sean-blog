@@ -4,15 +4,15 @@ pre {
 }
 
 // =============================================
-// TechSnazzy brand theme
-// (color variables mirrored from the main site's styles.css)
+// TechSnazzy brand theme (dark)
+// Mirrors the Projects section of the main site.
 // =============================================
 :root {
   --navy: #0d1b2a;
   --navy-mid: #16213e;
   --cyan: #00d4ff;
   --cyan-dim: #00a8cc;
-  --card-border: #e8ecf0;
+  --card-border: rgba(255, 255, 255, 0.08);
 }
 
 html {
@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  background: var(--navy-mid);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -39,12 +40,16 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--navy);
+  color: #fff;
   font-weight: 700;
 }
 
+hr {
+  border-color: var(--card-border);
+}
+
 // ---------------------------------------------
-// Header / nav
+// Header (logo only)
 // ---------------------------------------------
 .site-header {
   background: var(--navy);
@@ -73,48 +78,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-.site-nav {
-  line-height: 32px;
-}
-
-.site-nav .page-link {
-  color: rgba(255, 255, 255, 0.75) !important;
-  font-weight: 500;
-  margin-left: 22px;
-  transition: color 0.2s;
-}
-
-.site-nav .page-link:hover {
-  color: var(--cyan) !important;
-  text-decoration: none;
-}
-
-.site-nav .nav-trigger + label .menu-icon > svg path {
-  fill: #fff;
-}
-
-.site-nav input ~ label {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 6px;
-}
-
-.site-nav .trigger {
-  background: var(--navy-mid);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 0.4rem 0.8rem;
-}
-
-@media screen and (max-width: 600px) {
-  .site-nav .page-link {
-    color: rgba(255, 255, 255, 0.85) !important;
-    display: block;
-    margin-left: 0;
-  }
-}
-
 // ---------------------------------------------
-// Post list (home page)
+// Post list (home page) - project-card style
 // ---------------------------------------------
 .post-list {
   list-style: none;
@@ -123,25 +88,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-list > li {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--card-border);
   border-radius: 12px;
   padding: 1.7rem 1.9rem;
   margin-bottom: 1.3rem;
-  transition: box-shadow 0.25s, transform 0.25s;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 .post-list > li:hover {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 212, 255, 0.3);
+  box-shadow: 0 4px 24px rgba(0, 212, 255, 0.08);
   transform: translateY(-2px);
-}
-
-.post-list .post-meta {
-  color: var(--cyan-dim);
-  font-weight: 600;
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
 
 .post-list h3 {
@@ -149,13 +107,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-list .post-link {
-  color: var(--navy);
+  color: #fff;
   font-weight: 700;
   font-size: 1.25rem;
 }
 
 .post-list .post-link:hover {
+  color: var(--cyan);
+}
+
+.post-list p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+// ---------------------------------------------
+// Post meta (dates, on both the list and post page)
+// ---------------------------------------------
+.post-meta {
   color: var(--cyan-dim);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 // ---------------------------------------------
@@ -168,12 +141,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-title {
-  color: var(--navy);
+  color: #fff;
   font-weight: 800;
 }
 
 .post-content {
   line-height: 1.75;
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .post-content h2, .post-content h3 {
@@ -182,14 +156,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content pre,
 .post-content code {
-  background: rgba(0, 212, 255, 0.08);
+  background: rgba(0, 212, 255, 0.1);
+  color: #d6f3ff;
   border-radius: 6px;
-  border: 1px solid rgba(0, 212, 255, 0.15);
+  border: 1px solid rgba(0, 212, 255, 0.18);
+}
+
+.post-content img {
+  border-radius: 8px;
 }
 
 .post-content blockquote {
   border-left: 4px solid var(--cyan-dim);
-  color: var(--navy-mid);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 // ---------------------------------------------
